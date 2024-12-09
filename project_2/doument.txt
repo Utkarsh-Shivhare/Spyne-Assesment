@@ -1,0 +1,12 @@
+
+Approach:
+The project aimed to develop a model for predicting car angles using a pretrained model, EfficientNet-B0, known for its efficiency and performance. Data was cleaned, preprocessed, and split into training, validation, and testing sets. The pretrained model was fine-tuned over multiple epochs, with careful testing to determine the optimal number of epochs to prevent overfitting and ensure the model achieved its best performance.
+
+Challenges:
+
+Data Preparation: Handling missing values and inconsistencies was a time-consuming step.
+Epoch Tuning: Iterative testing was required to balance the number of epochs for optimal model performance without overtraining.
+Dependency Management: Issues with PyTorch libraries needed troubleshooting to ensure smooth execution.
+
+Results:
+Using the pretrained EfficientNet-B0 model significantly improved training efficiency and accuracy. The final model achieved a near 95% accuracy, with the F1 Score trends confirming that it was trained optimally and performed as expected.
